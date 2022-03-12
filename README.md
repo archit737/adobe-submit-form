@@ -45,7 +45,7 @@ Create an AEM application that accepts user input through a web form and submits
 
 * Form component with the fields filled in
   
-  ![alt text](screenshots\1-registration-form.png)
+  ![alt text](screenshots/1-registration-form.png)
 
 * Form component dialog
 
