@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+            cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+            cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+            cq:lastModified="{Date}2022-03-11T19:09:14.773+11:00"
+            cq:lastModifiedBy="admin"
+            cq:template="/conf/submit-form/settings/wcm/templates/content-page"
+            jcr:primaryType="cq:PageContent"
+            jcr:title="English"
+            sling:resourceType="submit-form/components/structure/page"
+            pageTitle="New Project"
+            socialMedia="[facebook]">
+        <root
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/responsivegrid">
+                <title
+                        jcr:lastModified="{Date}2022-03-11T18:52:53.395+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Registration form"
+                        sling:resourceType="submit-form/components/content/title"/>
+                <image
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="submit-form/components/content/image"
+                        fileReference="/content/dam/submit-form/asset.jpg"/>
+                <adobesubmitform
+                        jcr:created="{Date}2022-03-11T18:51:16.113+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-11T19:09:14.769+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="submit-form/components/content/adobeSubmitForm"
+                        endpoint="/bin/adobeSubmit"/>
+                <navigation
+                        jcr:created="{Date}2022-03-11T18:53:09.954+11:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-03-11T18:53:09.954+11:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="submit-form/components/content/navigation"/>
+            </responsivegrid>
+        </root>
+        <image/>
+    </jcr:content>
+    <_x0032_0220311190817
+            jcr:primaryType="nt:unstructured"
+            timestamp="20220311190817"/>
+    <_x0032_0220311190821
+            jcr:primaryType="nt:unstructured"
+            timestamp="20220311190821"/>
+    <_x0032_0220311190932
+            jcr:primaryType="nt:unstructured"
+            timestamp="20220311190932"/>
+</jcr:root>
